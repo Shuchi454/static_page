@@ -1,0 +1,23 @@
+<html>
+<head>
+<title>FORM</title>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+<body>
+<header><br><h1 style='color:white'><center>LEARN PYTHON</center></h1><br></header>
+<br>
+<br>
+<br/>
+<center><table style='width:30%'><tr><td><form action="welcome_get.php" method="get"><div class="container"><center><br><b>NAME</b><br/><input type='text' placeholder='username' name='uid' required><br>
+<br><b>EMAIL</b><br><input type='text' placeholder='email' required><br>
+<br><br><label for='phone'><b>Enter Your Phone Number</b></label><br><input type='tel' id ='phone' name='phone' placeholder='91-88603-373577' pattern='[0-9]{2}-[0-9]{5}-[0-9]{5}' required>
+<br><br><label for="country"><b>COUNTRY</b><br></label><select id="country" name="country"><option value="australia">Australia</option><option value="canada">Canada</option><option value="usa">USA</option></option><option value="india">India</option></option><option value="pakistan">Pakistan</option></select></center>
+<center><br><br><b>Please Select Your Gender</b><br><input type="radio" id="female" name="gender" value="male"><label for="female">Male</label><br><input type="radio" id="female" name="gender" value="female"><label for="female">Female</label><br><input type="radio" id="other" name="gender" value="other"><label for="other">Other</label></center>
+<br><br><center><button type='submit' form='form1' value='Submit'><b>Submit</b></button></center>
+  
+</center></div></form></table>
+<hr>
+<footer><br><p style='color:white'>Python is a preferred high-level, server-side programming language for websites and mobile apps. For both, new and old developers, Python has managed to stay a language of choice with ease. Due to its readability and dense syntax, developers can express a concept with more ease than they can, using other languages</b><br><br><center style='color:white' >&copy; Shuchi Sharma</center><br><br><br></footer> 
+
+</body>
+</html>
